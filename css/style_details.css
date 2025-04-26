@@ -1,0 +1,41 @@
+body{
+    /*background-image: url("../media/trianf 2 cp .jpg");*/
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#cardContainer{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+.container_recherche{
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .select_option{
+    background-color:#F4FF4A;
+    margin: 5px;
+    width: 170px;
+    height: 35px;
+  }
+  h1,h2{
+    font-family: monospace;
+  }
+  
+  .container_details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
